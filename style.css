@@ -1,0 +1,284 @@
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffebee;
+            color: #d81b60;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .fotos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+            align-items: center;
+            text-align: center;
+        }
+
+        .foto-container {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .foto-container:hover {
+            transform: scale(1.05);
+        }
+
+        .mensagem {
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        #mensagem-personalizada {
+            font-size: 1.5em;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+
+        button,
+        .btn {
+            background-color: #d81b60;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        button:hover,
+        .btn:hover {
+            background-color: #ad1457;
+        }
+
+        .timeline {
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .evento {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .lembrancas {
+            text-align: center;
+        }
+
+        .evento-header {
+            margin-bottom: 10px;
+        }
+
+        .evento-content {
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .evento-foto {
+            width: 150px;
+            height: 150px;
+            min-width: 150px;
+            border-radius: 8px;
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-bottom: 15px;
+            border: 1px solid red;
+        }
+
+        .evento-content p {
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            .evento-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .evento-foto {
+                width: 100%;
+                height: 200px;
+                margin-bottom: 10px;
+            }
+        }
+
+
+        .infinito-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .infinito-simbolo {
+            font-size: 3em;
+            line-height: 1;
+            color: #d81b60;
+            font-weight: bold;
+            animation: girar 6s linear infinite;
+        }
+
+        @keyframes girar {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .coracoes {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .coracao {
+            position: absolute;
+            font-size: 20px;
+            color: #ff4081;
+            animation: flutuar 4s linear forwards;
+        }
+
+        @keyframes flutuar {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .contador {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+        }
+
+        .contador span {
+            font-weight: bold;
+            color: #d81b60;
+        }
+
+        .promessa {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .promessa h2 {
+            text-align: center;
+        }
+
+        .promessa-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .promessa-form textarea {
+            height: 100px;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #d81b60;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .promessa-form button {
+            align-self: center;
+        }
+
+        .promessas-salvas {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: rgba(255, 228, 225, 0.7);
+            border-radius: 8px;
+        }
+
+        .promessa-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px dashed #d81b60;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .foto-container {
+                width: 200px;
+                height: 200px;
+            }
+        }

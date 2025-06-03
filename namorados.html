@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Amor por Você</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <header>
+            <h1>Feliz Dia dos Namorados, <span id="nome-namorada">Meu Amor</span>!</h1>
+        </header>
+        
+        <main>
+            <!-- Contador de tempo juntos -->
+            <div class="contador">
+                <p>Nós estamos juntos há: <span id="tempo-juntos"></span></p>
+            </div>
+            
+            <!-- Seção de fotos -->
+            <section class="fotos">
+                <div class="foto-container" id="foto1"></div>
+                <div class="foto-container" id="foto2"></div>
+                <div class="foto-container" id="foto3"></div>
+            </section>
+            
+            <!-- Seção de mensagens -->
+            <section class="mensagem">
+                <p id="mensagem-personalizada">Cada dia ao seu lado é um presente que eu guardo no coração...</p>
+                <button id="btn-mensagem">Clique para mais uma mensagem</button>
+            </section>
+            
+            <!-- Seção de promessa de amor -->
+            <section class="promessa">
+                <h2>Promessa de Amor</h2>
+                <div class="promessa-form">
+                    <textarea id="texto-promessa" placeholder="Escreva aqui sua promessa de amor..."></textarea>
+                    <button id="btn-promessa">Guardar Promessa</button>
+                </div>
+                <div class="promessas-salvas" id="promessas-salvas">
+                    <h3>Nossas Promessas:</h3>
+                    <!-- Promessas serão adicionadas aqui pelo JavaScript -->
+                </div>
+            </section>
+            
+            <!-- Seção de lembranças -->
+            <section class="lembrancas">
+                <h2>Nossas Melhores Lembranças</h2>
+                <div class="timeline" id="timeline"></div>
+            </section>
+            
+            <!-- Seção de música -->
+            <section class="musica">
+                <h2>Nossa Música</h2>
+                <audio controls id="audio-player">
+                    <!-- Substitua pela sua música -->
+                    <source src="MC Hariel e Maneva - O Mundo Diz Que Não [Lyric Video] DJ Murillo e LT no Beat.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Feito com ❤️ por <span id="seu-nome">Você</span> - <span id="ano-atual">2024</span></p>
+        </footer>
+    </div>
+    
+    <div class="coracoes" id="coracoes"></div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
