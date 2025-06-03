@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
             data: "15/01/2025",
             titulo: "A gente no parque",
             descricao: "Eu achei você muito linda nessa foto",
-            foto: "url('clara.JPG')"
+            foto: "url('clara.jpg')"
         },
         {
             data: "29/01/2025",
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
             data: "15/02/2025",
             titulo: "A gente na sua casa",
             descricao: "Você enrolando o cabelo e eu ajudando muito",
-            foto: "url('IMG_2386.JPG')"
+            foto: "url('IMG_2386.jpg')"
         },
         {
             data: "07/03/2025",
