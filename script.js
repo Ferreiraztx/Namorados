@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             data: "29/09/2024",
             titulo: "Primeira vez no parque juntos",
-            descricao: "Com a manu, nossa maior fã KKKK",
+            descricao: "Com a Manu, nossa maior fã KKKK",
             foto: "url('foto5.JPG')"
         },
         {
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             data: "10/11/2024",
             titulo: "Dia que conheci seus pais",
-            descricao: "Foi um dia muito marcante para mim também, conheci o Hulk KKKKKK",
+            descricao: "Foi um dia muito marcante para mim, conheci o Hulk KKKKKK",
             foto: "url('casa.jpg')"
         },
         {
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             data: "25/12/2024",
             titulo: "Primeiro Natal Juntos",
-            descricao: "Algo que me marcou muito e foi um dia muito especial",
+            descricao: "Algo que me marcou muito",
             foto: "url('natal.JPG')"
         },
         {
@@ -122,8 +122,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             data: "29/01/2025",
-            titulo: "E daí em diante foram diversos rolês",
-            descricao: "A gente",
+            titulo: "Fazendo caretas",
+            descricao: "Foto tirada pela melhor fotógrafa que existe 🤣",
             foto: "url('nós3.jpg')"
         },
         {
@@ -140,14 +140,14 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             data: "07/03/2025",
-            titulo: "A gente com a Manu",
-            descricao: "Nossa maior fã",
+            titulo: "Nosso grudinho",
+            descricao: "Só aparece ela na foto KKKK",
             foto: "url('nós2.jpg')"
         },
         {
             data: "09/03/2025",
             titulo: "Aproveitando o dia juntos",
-            descricao: "A gente ficou muito bonito na foto de verdade",
+            descricao: "A gente ficou muito bonito na foto ❤️",
             foto: "url('role2.jpg')"
         },
         {
