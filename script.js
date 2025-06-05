@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             data: "15/01/2025",
             titulo: "Nosso piquenique no parque",
-            descricao: "Essa foto é incrível",
+            descricao: "Essa foto é incrível 🤣🤣",
             foto: "url('linda.jpg')"
         },
         {
@@ -128,13 +128,13 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             data: "08/02/2025",
-            titulo: "A gente aqui em casa",
+            titulo: "Nossos momentos",
             descricao: "Muito lindos não tem como",
             foto: "url('nós.JPG')"
         },
         {
             data: "15/02/2025",
-            titulo: "A gente na sua casa",
+            titulo: "Mais momentos",
             descricao: "Você enrolando o cabelo e eu ajudando muito",
             foto: "url('cabelo.jpg')"
         },
@@ -146,13 +146,13 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             data: "09/03/2025",
-            titulo: "A gente no aniversário",
+            titulo: "Aproveitando o dia juntos",
             descricao: "A gente ficou muito bonito na foto de verdade",
             foto: "url('role2.jpg')"
         },
         {
             data: "06/04/2025",
-            titulo: "A gente no outro parque",
+            titulo: "Nos divertimos muito",
             descricao: "Essa foto ficou top",
             foto: "url('role.jpg')"
         },
